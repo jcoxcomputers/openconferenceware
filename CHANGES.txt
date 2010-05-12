@@ -4,6 +4,7 @@ Changes
 OpenConferenceWare stable releases and changes included, with latest at top:
 
 * Next
+- Fixed caching to avoid leaving stale caches behind, a new Cache class provides a central place for interacting with the Rails cache.
 - Fixed schedule of user favorites so it's only displayed when the schedule is published.
 - Fixed schedule so admin can view an unreleased schedule with collisions but without room assignments.
 - Fixed schedule items (e.g., coffee breaks) so that they're displayed for an event.
